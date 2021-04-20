@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CGXPageHomeZoomView : CGXPageHomeScrollView
 
-
 /** 加载图片 */
 @property (nonatomic, copy) void(^pageHomeZ_loadImageCallback)(UIImageView *hotImageView);
 

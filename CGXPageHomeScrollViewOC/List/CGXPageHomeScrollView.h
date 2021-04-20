@@ -73,7 +73,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)scrollHorizonViewWillBeginScroll;
 - (void)scrollHorizonViewDidEndScroll;
-
 /**
  滑动到原点，可用于在吸顶状态下，点击返回按钮，回到原始状态
  */
@@ -82,7 +81,6 @@ NS_ASSUME_NONNULL_BEGIN
  滑动到临界点，可用于当headerView较长情况下，直接跳到临界点状态
  */
 - (void)scrollToCriticalPoint;
-
 
 // 用于子类自行处理滑动
 // 菜单左右滚动

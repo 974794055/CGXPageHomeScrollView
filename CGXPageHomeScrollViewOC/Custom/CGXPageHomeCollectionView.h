@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)gx_pageHomeCollectionView:(CGXPageHomeCollectionView *)collectionView gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer;
 - (BOOL)gx_pageHomeCollectionView:(CGXPageHomeCollectionView *)collectionView gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer;
-
 @end
 
 @interface CGXPageHomeCollectionView : UICollectionView<UIGestureRecognizerDelegate>

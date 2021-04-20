@@ -31,7 +31,6 @@
         }
     }
     if ([self panBack:gestureRecognizer]) return NO;
-    
     return YES;
 }
 

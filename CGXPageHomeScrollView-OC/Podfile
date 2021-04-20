@@ -7,5 +7,6 @@ target 'CGXPageHomeScrollView-OC' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'SDWebImage'
+  
 end
 

@@ -37,7 +37,6 @@
                         @{@"title": @"Header左右滑动", @"class": @"CGXHomeHeaderScrollViewController"}];
 
     [self.tableView reloadData];
-
 }
 - (void)viewWillAppear:(BOOL)animated
 {

@@ -23,7 +23,6 @@ s.public_header_files = 'CGXPageHomeScrollViewOC/**/*.{h,m}'
     ss.source_files = 'CGXPageHomeScrollViewOC/ContainerView/**/*.{h,m}'
     ss.dependency 'CGXPageHomeScrollViewOC/Custom'
   end
- 
  s.subspec 'List' do |ss|
     ss.source_files = 'CGXPageHomeScrollViewOC/List/**/*.{h,m}'
     ss.dependency 'CGXPageHomeScrollViewOC/ContainerView'

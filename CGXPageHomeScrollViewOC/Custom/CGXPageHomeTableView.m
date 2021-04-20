@@ -14,7 +14,6 @@
     if ([self.gestureDelegate respondsToSelector:@selector(gx_pageHomeTableView:gestureRecognizerShouldBegin:)]) {
         return [self.gestureDelegate gx_pageHomeTableView:self gestureRecognizerShouldBegin:gestureRecognizer];
     }
-    
     return YES;
 }
 

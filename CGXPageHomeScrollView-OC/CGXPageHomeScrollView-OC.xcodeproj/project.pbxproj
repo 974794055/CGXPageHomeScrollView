@@ -25,6 +25,13 @@
 		B58A4E3126233B64009394F7 /* CGXHomeHeaderScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E3026233B64009394F7 /* CGXHomeHeaderScrollViewController.m */; };
 		B58A4E6E26235551009394F7 /* CGXMainRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E6626235550009394F7 /* CGXMainRefreshViewController.m */; };
 		B58A4E7026235551009394F7 /* CGXListRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E6C26235550009394F7 /* CGXListRefreshViewController.m */; };
+		B590EFC6262F293C000A5047 /* scoller0.png in Resources */ = {isa = PBXBuildFile; fileRef = B590EFBF262F293B000A5047 /* scoller0.png */; };
+		B590EFC7262F293C000A5047 /* scoller2.gif in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC0262F293B000A5047 /* scoller2.gif */; };
+		B590EFC8262F293C000A5047 /* scoller3.gif in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC1262F293B000A5047 /* scoller3.gif */; };
+		B590EFC9262F293C000A5047 /* scoller1.gif in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC2262F293B000A5047 /* scoller1.gif */; };
+		B590EFCA262F293C000A5047 /* authorGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC3262F293B000A5047 /* authorGroup.png */; };
+		B590EFCB262F293C000A5047 /* scoller4.gif in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC4262F293B000A5047 /* scoller4.gif */; };
+		B590EFCC262F293C000A5047 /* scoller5.gif in Resources */ = {isa = PBXBuildFile; fileRef = B590EFC5262F293B000A5047 /* scoller5.gif */; };
 		B5FA8FFE26248237003A4942 /* CGXHomeNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA8FFD26248237003A4942 /* CGXHomeNavView.m */; };
 		B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA9002262487D0003A4942 /* CGXHeaderView.m */; };
 		B5FA900926248E4C003A4942 /* CGXHomeListTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */; };
@@ -66,6 +73,13 @@
 		B58A4E6726235550009394F7 /* CGXMainRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXMainRefreshViewController.h; sourceTree = "<group>"; };
 		B58A4E6C26235550009394F7 /* CGXListRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXListRefreshViewController.m; sourceTree = "<group>"; };
 		B58A4E6D26235550009394F7 /* CGXListRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXListRefreshViewController.h; sourceTree = "<group>"; };
+		B590EFBF262F293B000A5047 /* scoller0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scoller0.png; sourceTree = "<group>"; };
+		B590EFC0262F293B000A5047 /* scoller2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoller2.gif; sourceTree = "<group>"; };
+		B590EFC1262F293B000A5047 /* scoller3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoller3.gif; sourceTree = "<group>"; };
+		B590EFC2262F293B000A5047 /* scoller1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoller1.gif; sourceTree = "<group>"; };
+		B590EFC3262F293B000A5047 /* authorGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = authorGroup.png; sourceTree = "<group>"; };
+		B590EFC4262F293B000A5047 /* scoller4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoller4.gif; sourceTree = "<group>"; };
+		B590EFC5262F293B000A5047 /* scoller5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = scoller5.gif; sourceTree = "<group>"; };
 		B5FA8FFC26248237003A4942 /* CGXHomeNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeNavView.h; sourceTree = "<group>"; };
 		B5FA8FFD26248237003A4942 /* CGXHomeNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeNavView.m; sourceTree = "<group>"; };
 		B5FA9001262487D0003A4942 /* CGXHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHeaderView.h; sourceTree = "<group>"; };
@@ -109,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				B547FBC62507D3340053858C /* Podspec Metadata */,
+				B590EFBE262F293B000A5047 /* CGXPageHomeScrollViewGif */,
 				046960E5250735F7009A32E9 /* AppDelegate.h */,
 				046960E6250735F7009A32E9 /* AppDelegate.m */,
 				046960EB250735F7009A32E9 /* ViewController.h */,
@@ -161,6 +176,21 @@
 				B547FBCC2507D6B20053858C /* README.md */,
 			);
 			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B590EFBE262F293B000A5047 /* CGXPageHomeScrollViewGif */ = {
+			isa = PBXGroup;
+			children = (
+				B590EFBF262F293B000A5047 /* scoller0.png */,
+				B590EFC0262F293B000A5047 /* scoller2.gif */,
+				B590EFC1262F293B000A5047 /* scoller3.gif */,
+				B590EFC2262F293B000A5047 /* scoller1.gif */,
+				B590EFC3262F293B000A5047 /* authorGroup.png */,
+				B590EFC4262F293B000A5047 /* scoller4.gif */,
+				B590EFC5262F293B000A5047 /* scoller5.gif */,
+			);
+			name = CGXPageHomeScrollViewGif;
+			path = ../../CGXPageHomeScrollViewGif;
 			sourceTree = "<group>";
 		};
 		B5FA900626248E26003A4942 /* Custom */ = {
@@ -241,11 +271,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B590EFCB262F293C000A5047 /* scoller4.gif in Resources */,
+				B590EFC8262F293C000A5047 /* scoller3.gif in Resources */,
 				B547FBCE2507D6B20053858C /* README.md in Resources */,
 				046960F5250735FC009A32E9 /* LaunchScreen.storyboard in Resources */,
 				046960F2250735FC009A32E9 /* Assets.xcassets in Resources */,
+				B590EFC6262F293C000A5047 /* scoller0.png in Resources */,
+				B590EFCC262F293C000A5047 /* scoller5.gif in Resources */,
 				046960F0250735F7009A32E9 /* Main.storyboard in Resources */,
 				B547FBCD2507D6B20053858C /* LICENSE in Resources */,
+				B590EFCA262F293C000A5047 /* authorGroup.png in Resources */,
+				B590EFC9262F293C000A5047 /* scoller1.gif in Resources */,
+				B590EFC7262F293C000A5047 /* scoller2.gif in Resources */,
 				B547FBD02507D6C70053858C /* CGXPageHomeScrollViewOC.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
