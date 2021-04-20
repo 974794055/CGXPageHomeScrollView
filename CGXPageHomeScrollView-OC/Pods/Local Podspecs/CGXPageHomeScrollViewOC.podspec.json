@@ -1,0 +1,52 @@
+{
+  "name": "CGXPageHomeScrollViewOC",
+  "version": "0.0.1",
+  "summary": "CGXPageHomeScrollViewOC是基于UICollectionView封装的库，分区圆角边框，瀑布流、标签流等主流APP分页列表滚动视图的库)",
+  "description": "(UICollectionView封装的库，分区圆角边框，瀑布流、标签流、不规则布局等主流APP分页列表滚动视图的库封装",
+  "homepage": "https://github.com/974794055/CGXPageHomeScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "974794055": "974794055@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/974794055/CGXPageCollectionView-OC.git",
+    "tag": "0.0.1"
+  },
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "source_files": "CGXPageHomeScrollViewOC/**/*.{h,m}",
+  "public_header_files": "CGXPageHomeScrollViewOC/**/*.{h,m}",
+  "subspecs": [
+    {
+      "name": "Custom",
+      "source_files": "CGXPageHomeScrollViewOC/Custom/**/*.{h,m}"
+    },
+    {
+      "name": "ContainerView",
+      "source_files": "CGXPageHomeScrollViewOC/ContainerView/**/*.{h,m}",
+      "dependencies": {
+        "CGXPageHomeScrollViewOC/Custom": [
+
+        ]
+      }
+    },
+    {
+      "name": "List",
+      "source_files": "CGXPageHomeScrollViewOC/List/**/*.{h,m}",
+      "dependencies": {
+        "CGXPageHomeScrollViewOC/ContainerView": [
+
+        ],
+        "CGXPageHomeScrollViewOC/Custom": [
+
+        ]
+      }
+    }
+  ]
+}

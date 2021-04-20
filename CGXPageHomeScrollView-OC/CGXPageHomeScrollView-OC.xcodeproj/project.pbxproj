@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046960E7250735F7009A32E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046960E6250735F7009A32E9 /* AppDelegate.m */; };
+		046960ED250735F7009A32E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046960EC250735F7009A32E9 /* ViewController.m */; };
+		046960F0250735F7009A32E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046960EE250735F7009A32E9 /* Main.storyboard */; };
+		046960F2250735FC009A32E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046960F1250735FB009A32E9 /* Assets.xcassets */; };
+		046960F5250735FC009A32E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046960F3250735FC009A32E9 /* LaunchScreen.storyboard */; };
+		046960F8250735FC009A32E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046960F7250735FC009A32E9 /* main.m */; };
+		B53BEEF2250CB12300859360 /* CGXHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEEEF250CB12200859360 /* CGXHomeHeaderView.m */; };
+		B53BEEFA250CFA9500859360 /* CGXHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEEF9250CFA9500859360 /* CGXHomeListViewController.m */; };
+		B53BEF33250D266D00859360 /* CGXHomeHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEF32250D266D00859360 /* CGXHomeHorizontalView.m */; };
+		B547FBCD2507D6B20053858C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCB2507D6B20053858C /* LICENSE */; };
+		B547FBCE2507D6B20053858C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCC2507D6B20053858C /* README.md */; };
+		B547FBD02507D6C70053858C /* CGXPageHomeScrollViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */; };
+		B58A4D76262319E7009394F7 /* CustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4D74262319E7009394F7 /* CustomTitleView.m */; };
+		B58A4DCB26231FA6009394F7 /* CGXWeiBoFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4DC826231FA6009394F7 /* CGXWeiBoFindViewController.m */; };
+		B58A4DCC26231FA6009394F7 /* CGXWeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4DC926231FA6009394F7 /* CGXWeiBoViewController.m */; };
+		B58A4E3126233B64009394F7 /* CGXHomeHeaderScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E3026233B64009394F7 /* CGXHomeHeaderScrollViewController.m */; };
+		B58A4E6E26235551009394F7 /* CGXMainRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E6626235550009394F7 /* CGXMainRefreshViewController.m */; };
+		B58A4E7026235551009394F7 /* CGXListRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4E6C26235550009394F7 /* CGXListRefreshViewController.m */; };
+		B5FA8FFE26248237003A4942 /* CGXHomeNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA8FFD26248237003A4942 /* CGXHomeNavView.m */; };
+		B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA9002262487D0003A4942 /* CGXHeaderView.m */; };
+		B5FA900926248E4C003A4942 /* CGXHomeListTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */; };
+		C12ED184E36E20742F96C3F4 /* libPods-CGXPageHomeScrollView-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E68A84E58412BECBF68B63 /* libPods-CGXPageHomeScrollView-OC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046960E2250735F7009A32E9 /* CGXPageHomeScrollView-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGXPageHomeScrollView-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046960E5250735F7009A32E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046960E6250735F7009A32E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046960EB250735F7009A32E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046960EC250735F7009A32E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046960EF250735F7009A32E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046960F1250735FB009A32E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046960F4250735FC009A32E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046960F6250735FC009A32E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046960F7250735FC009A32E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04696192250736AE009A32E9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A9E2483042787CA9C49A38D /* Pods-CGXPageHomeScrollView-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageHomeScrollView-OC.release.xcconfig"; path = "Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC.release.xcconfig"; sourceTree = "<group>"; };
+		90E68A84E58412BECBF68B63 /* libPods-CGXPageHomeScrollView-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXPageHomeScrollView-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53BEEEC250CB12200859360 /* CGXHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHomeHeaderView.h; sourceTree = "<group>"; };
+		B53BEEEF250CB12200859360 /* CGXHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHomeHeaderView.m; sourceTree = "<group>"; };
+		B53BEEF8250CFA9500859360 /* CGXHomeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeListViewController.h; sourceTree = "<group>"; };
+		B53BEEF9250CFA9500859360 /* CGXHomeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeListViewController.m; sourceTree = "<group>"; };
+		B53BEF31250D266D00859360 /* CGXHomeHorizontalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeHorizontalView.h; sourceTree = "<group>"; };
+		B53BEF32250D266D00859360 /* CGXHomeHorizontalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeHorizontalView.m; sourceTree = "<group>"; };
+		B547FBCB2507D6B20053858C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		B547FBCC2507D6B20053858C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageHomeScrollViewOC.podspec; path = ../../../CGXPageHomeScrollViewOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B58A4D74262319E7009394F7 /* CustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleView.m; sourceTree = "<group>"; };
+		B58A4D75262319E7009394F7 /* CustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleView.h; sourceTree = "<group>"; };
+		B58A4DC526231FA6009394F7 /* CGXWeiBoFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXWeiBoFindViewController.h; sourceTree = "<group>"; };
+		B58A4DC626231FA6009394F7 /* CGXWeiBoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXWeiBoViewController.h; sourceTree = "<group>"; };
+		B58A4DC826231FA6009394F7 /* CGXWeiBoFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXWeiBoFindViewController.m; sourceTree = "<group>"; };
+		B58A4DC926231FA6009394F7 /* CGXWeiBoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXWeiBoViewController.m; sourceTree = "<group>"; };
+		B58A4E2F26233B64009394F7 /* CGXHomeHeaderScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeHeaderScrollViewController.h; sourceTree = "<group>"; };
+		B58A4E3026233B64009394F7 /* CGXHomeHeaderScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeHeaderScrollViewController.m; sourceTree = "<group>"; };
+		B58A4E6626235550009394F7 /* CGXMainRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXMainRefreshViewController.m; sourceTree = "<group>"; };
+		B58A4E6726235550009394F7 /* CGXMainRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXMainRefreshViewController.h; sourceTree = "<group>"; };
+		B58A4E6C26235550009394F7 /* CGXListRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXListRefreshViewController.m; sourceTree = "<group>"; };
+		B58A4E6D26235550009394F7 /* CGXListRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXListRefreshViewController.h; sourceTree = "<group>"; };
+		B5FA8FFC26248237003A4942 /* CGXHomeNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeNavView.h; sourceTree = "<group>"; };
+		B5FA8FFD26248237003A4942 /* CGXHomeNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeNavView.m; sourceTree = "<group>"; };
+		B5FA9001262487D0003A4942 /* CGXHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXHeaderView.h; sourceTree = "<group>"; };
+		B5FA9002262487D0003A4942 /* CGXHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHeaderView.m; sourceTree = "<group>"; };
+		B5FA900726248E4C003A4942 /* CGXHomeListTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeListTwoViewController.h; sourceTree = "<group>"; };
+		B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeListTwoViewController.m; sourceTree = "<group>"; };
+		EF7D5F0299D61B5871A9F38A /* Pods-CGXPageHomeScrollView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; path = "Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046960DF250735F7009A32E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12ED184E36E20742F96C3F4 /* libPods-CGXPageHomeScrollView-OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046960D9250735F7009A32E9 = {
+			isa = PBXGroup;
+			children = (
+				046960E4250735F7009A32E9 /* CGXPageHomeScrollView-OC */,
+				046960E3250735F7009A32E9 /* Products */,
+				66974A6B2158F7DD18603A1A /* Pods */,
+				A10B2AD8EADD355B4FB90EFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046960E3250735F7009A32E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046960E2250735F7009A32E9 /* CGXPageHomeScrollView-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046960E4250735F7009A32E9 /* CGXPageHomeScrollView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				B547FBC62507D3340053858C /* Podspec Metadata */,
+				046960E5250735F7009A32E9 /* AppDelegate.h */,
+				046960E6250735F7009A32E9 /* AppDelegate.m */,
+				046960EB250735F7009A32E9 /* ViewController.h */,
+				046960EC250735F7009A32E9 /* ViewController.m */,
+				B58A4DC626231FA6009394F7 /* CGXWeiBoViewController.h */,
+				B58A4DC926231FA6009394F7 /* CGXWeiBoViewController.m */,
+				B58A4DC526231FA6009394F7 /* CGXWeiBoFindViewController.h */,
+				B58A4DC826231FA6009394F7 /* CGXWeiBoFindViewController.m */,
+				B58A4E6D26235550009394F7 /* CGXListRefreshViewController.h */,
+				B58A4E6C26235550009394F7 /* CGXListRefreshViewController.m */,
+				B58A4E6726235550009394F7 /* CGXMainRefreshViewController.h */,
+				B58A4E6626235550009394F7 /* CGXMainRefreshViewController.m */,
+				B58A4E2F26233B64009394F7 /* CGXHomeHeaderScrollViewController.h */,
+				B58A4E3026233B64009394F7 /* CGXHomeHeaderScrollViewController.m */,
+				B5FA900626248E26003A4942 /* Custom */,
+				B58A4D75262319E7009394F7 /* CustomTitleView.h */,
+				B58A4D74262319E7009394F7 /* CustomTitleView.m */,
+				046960F3250735FC009A32E9 /* LaunchScreen.storyboard */,
+				046960EE250735F7009A32E9 /* Main.storyboard */,
+				046960F1250735FB009A32E9 /* Assets.xcassets */,
+				04696192250736AE009A32E9 /* PrefixHeader.pch */,
+				046960F6250735FC009A32E9 /* Info.plist */,
+				046960F7250735FC009A32E9 /* main.m */,
+			);
+			path = "CGXPageHomeScrollView-OC";
+			sourceTree = "<group>";
+		};
+		66974A6B2158F7DD18603A1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF7D5F0299D61B5871A9F38A /* Pods-CGXPageHomeScrollView-OC.debug.xcconfig */,
+				2A9E2483042787CA9C49A38D /* Pods-CGXPageHomeScrollView-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A10B2AD8EADD355B4FB90EFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90E68A84E58412BECBF68B63 /* libPods-CGXPageHomeScrollView-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B547FBC62507D3340053858C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */,
+				B547FBCB2507D6B20053858C /* LICENSE */,
+				B547FBCC2507D6B20053858C /* README.md */,
+			);
+			path = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B5FA900626248E26003A4942 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				B53BEEEC250CB12200859360 /* CGXHomeHeaderView.h */,
+				B53BEEEF250CB12200859360 /* CGXHomeHeaderView.m */,
+				B5FA9001262487D0003A4942 /* CGXHeaderView.h */,
+				B5FA9002262487D0003A4942 /* CGXHeaderView.m */,
+				B5FA8FFC26248237003A4942 /* CGXHomeNavView.h */,
+				B5FA8FFD26248237003A4942 /* CGXHomeNavView.m */,
+				B53BEF31250D266D00859360 /* CGXHomeHorizontalView.h */,
+				B53BEF32250D266D00859360 /* CGXHomeHorizontalView.m */,
+				B53BEEF8250CFA9500859360 /* CGXHomeListViewController.h */,
+				B53BEEF9250CFA9500859360 /* CGXHomeListViewController.m */,
+				B5FA900726248E4C003A4942 /* CGXHomeListTwoViewController.h */,
+				B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046960E1250735F7009A32E9 /* CGXPageHomeScrollView-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046960FB250735FC009A32E9 /* Build configuration list for PBXNativeTarget "CGXPageHomeScrollView-OC" */;
+			buildPhases = (
+				CBC2A0A643FD7FF9B998E125 /* [CP] Check Pods Manifest.lock */,
+				046960DE250735F7009A32E9 /* Sources */,
+				046960DF250735F7009A32E9 /* Frameworks */,
+				046960E0250735F7009A32E9 /* Resources */,
+				895394303E2CE14EB63633E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGXPageHomeScrollView-OC";
+			productName = "CGXPageHomeScrollView-OC";
+			productReference = 046960E2250735F7009A32E9 /* CGXPageHomeScrollView-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046960DA250735F7009A32E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = CGX;
+				TargetAttributes = {
+					046960E1250735F7009A32E9 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 046960DD250735F7009A32E9 /* Build configuration list for PBXProject "CGXPageHomeScrollView-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046960D9250735F7009A32E9;
+			productRefGroup = 046960E3250735F7009A32E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046960E1250735F7009A32E9 /* CGXPageHomeScrollView-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046960E0250735F7009A32E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B547FBCE2507D6B20053858C /* README.md in Resources */,
+				046960F5250735FC009A32E9 /* LaunchScreen.storyboard in Resources */,
+				046960F2250735FC009A32E9 /* Assets.xcassets in Resources */,
+				046960F0250735F7009A32E9 /* Main.storyboard in Resources */,
+				B547FBCD2507D6B20053858C /* LICENSE in Resources */,
+				B547FBD02507D6C70053858C /* CGXPageHomeScrollViewOC.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		895394303E2CE14EB63633E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC2A0A643FD7FF9B998E125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGXPageHomeScrollView-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046960DE250735F7009A32E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53BEF33250D266D00859360 /* CGXHomeHorizontalView.m in Sources */,
+				B58A4E3126233B64009394F7 /* CGXHomeHeaderScrollViewController.m in Sources */,
+				B5FA8FFE26248237003A4942 /* CGXHomeNavView.m in Sources */,
+				046960ED250735F7009A32E9 /* ViewController.m in Sources */,
+				B58A4E7026235551009394F7 /* CGXListRefreshViewController.m in Sources */,
+				B58A4DCC26231FA6009394F7 /* CGXWeiBoViewController.m in Sources */,
+				B58A4D76262319E7009394F7 /* CustomTitleView.m in Sources */,
+				046960E7250735F7009A32E9 /* AppDelegate.m in Sources */,
+				B53BEEFA250CFA9500859360 /* CGXHomeListViewController.m in Sources */,
+				B5FA900926248E4C003A4942 /* CGXHomeListTwoViewController.m in Sources */,
+				B53BEEF2250CB12300859360 /* CGXHomeHeaderView.m in Sources */,
+				B58A4DCB26231FA6009394F7 /* CGXWeiBoFindViewController.m in Sources */,
+				B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */,
+				B58A4E6E26235551009394F7 /* CGXMainRefreshViewController.m in Sources */,
+				046960F8250735FC009A32E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046960EE250735F7009A32E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046960EF250735F7009A32E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046960F3250735FC009A32E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046960F4250735FC009A32E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046960F9250735FC009A32E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046960FA250735FC009A32E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046960FC250735FC009A32E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7D5F0299D61B5871A9F38A /* Pods-CGXPageHomeScrollView-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA9R26989C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGXPageHomeScrollView-OC/PrefixHeader.pch";
+				INFOPLIST_FILE = "CGXPageHomeScrollView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGX.CGXPageHomeScrollView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046960FD250735FC009A32E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E2483042787CA9C49A38D /* Pods-CGXPageHomeScrollView-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AA9R26989C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CGXPageHomeScrollView-OC/PrefixHeader.pch";
+				INFOPLIST_FILE = "CGXPageHomeScrollView-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CGX.CGXPageHomeScrollView-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046960DD250735F7009A32E9 /* Build configuration list for PBXProject "CGXPageHomeScrollView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046960F9250735FC009A32E9 /* Debug */,
+				046960FA250735FC009A32E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046960FB250735FC009A32E9 /* Build configuration list for PBXNativeTarget "CGXPageHomeScrollView-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046960FC250735FC009A32E9 /* Debug */,
+				046960FD250735FC009A32E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046960DA250735F7009A32E9 /* Project object */;
+}

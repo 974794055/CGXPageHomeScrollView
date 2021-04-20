@@ -1,0 +1,43 @@
+PODS:
+  - CGXPageHomeScrollViewOC (0.0.1):
+    - CGXPageHomeScrollViewOC/ContainerView (= 0.0.1)
+    - CGXPageHomeScrollViewOC/Custom (= 0.0.1)
+    - CGXPageHomeScrollViewOC/List (= 0.0.1)
+  - CGXPageHomeScrollViewOC/ContainerView (0.0.1):
+    - CGXPageHomeScrollViewOC/Custom
+  - CGXPageHomeScrollViewOC/Custom (0.0.1)
+  - CGXPageHomeScrollViewOC/List (0.0.1):
+    - CGXPageHomeScrollViewOC/ContainerView
+    - CGXPageHomeScrollViewOC/Custom
+  - Masonry (1.1.0)
+  - MJRefresh (3.5.0)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+
+DEPENDENCIES:
+  - CGXPageHomeScrollViewOC (from `../`)
+  - Masonry
+  - MJRefresh
+  - SDWebImage
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - SDWebImage
+  trunk:
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  CGXPageHomeScrollViewOC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXPageHomeScrollViewOC: f3bdb8a42f87566c9e2b826bea2e5abef6b9db7a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+
+PODFILE CHECKSUM: 25e3de4a1539a315096a0c5ecdaf9ae3740f3658
+
+COCOAPODS: 1.10.1
