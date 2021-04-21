@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 s.name         = "CGXPageHomeScrollViewOC"    #存储库名称
 s.version      = "0.0.1"      #版本号，与tag值一致
-s.summary      = "CGXPageHomeScrollViewOC是基于UICollectionView封装的库，分区圆角边框，瀑布流、标签流等主流APP分页列表滚动视图的库)"  #简介
-s.description  = "(UICollectionView封装的库，分区圆角边框，瀑布流、标签流、不规则布局等主流APP分页列表滚动视图的库封装"  #描述
+s.summary      = "CGXPageHomeScrollViewOC是基于UITableView封装的顶部悬停等主流APP个人中心页的库)"  #简介
+s.description  = "(CGXPageHomeScrollViewOC基于UITableView封装的顶部悬停等主流APP个人中心页的库"  #描述
 s.homepage     = "https://github.com/974794055/CGXPageHomeScrollView"      #项目主页，不是git地址
 s.license      = { :type => "MIT", :file => "LICENSE" }   #开源协议
 s.author             = { "974794055" => "974794055@qq.com" }  #作者

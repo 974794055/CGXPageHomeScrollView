@@ -22,6 +22,7 @@
 
 ## 效果预览
 ### 主列表效果预览
+
 说明 | Gif |
 ----|------|
 效果🌈普通列表  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller0" width="287" height="600"> |
