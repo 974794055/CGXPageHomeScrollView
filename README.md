@@ -64,7 +64,6 @@ self.pageScrollView.pageHomeZ_loadImageCallback = ^(UIImageView * _Nonnull hotIm
 };
 self.pageScrollView.zoomImageStr = @"";
 [self.pageScrollView reloadData];
-
 self.navView = [[CGXHomeNavView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, kTopHeight)];
 [self.view addSubview:self.navView];
 self.navView.cancelBtnBlock = ^{

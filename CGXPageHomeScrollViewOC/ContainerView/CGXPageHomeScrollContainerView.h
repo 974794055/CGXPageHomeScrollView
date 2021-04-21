@@ -11,6 +11,8 @@
 
 #import "CGXPageHomeScrollContainerViewListDelegate.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @class CGXPageHomeScrollContainerView;
 
 /**
@@ -99,3 +101,4 @@ typedef NS_ENUM(NSUInteger, CGXPageHomeScrollContainerType) {
 - (void)scrollingFromLeftIndex:(NSInteger)leftIndex toRightIndex:(NSInteger)rightIndex ratio:(CGFloat)ratio selectedIndex:(NSInteger)selectedIndex;
 @end
 
+NS_ASSUME_NONNULL_END
