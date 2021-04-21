@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "CGXPageHomeScrollViewOC"    #存储库名称
-s.version      = "0.0.1"      #版本号，与tag值一致
+s.version      = "0.1"      #版本号，与tag值一致
 s.summary      = "CGXPageHomeScrollViewOC是基于UITableView封装的顶部悬停等主流APP个人中心页的库)"  #简介
 s.description  = "(CGXPageHomeScrollViewOC基于UITableView封装的顶部悬停等主流APP个人中心页的库"  #描述
 s.homepage     = "https://github.com/974794055/CGXPageHomeScrollView"      #项目主页，不是git地址

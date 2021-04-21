@@ -9,7 +9,7 @@
 
 - 下载链接：https://github.com/974794055/CGXPageHomeScrollView.git
 -  pod名称 ：CGXPageHomeScrollViewOC
-- 最新版本号： 0.0.1
+- 最新版本号： 0.1
 
 - 功能：    
 - CGXPageHomeScrollViewOC是基于UICollectionView和UITableView封装的等主流APP个人主页列表滚动视图的库
@@ -146,7 +146,7 @@ self.navView.cancelBtnBlock = ^{
 }
 ```
 ## 更新记录
-## V0.0.1版本
+## V0.1版本
 - 1. 优化
 
 如果刚开始使用`CGXPageHomeScrollViewOC`，当开发过程中需要支持某种特性时，请务必先搜索使用文档或者源代码。如果没有支持想要的特性，欢迎提Issue讨论，或者自己实现提一个PullRequest。
