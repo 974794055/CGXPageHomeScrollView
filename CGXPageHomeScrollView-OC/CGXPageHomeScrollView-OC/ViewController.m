@@ -23,13 +23,11 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.navigationItem.title = @"Demo";
     self.navigationController.navigationBar.translucent = NO;//设置不透明
-    
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(0);
         make.left.right.bottom.equalTo(self.view);
     }];
-
     self.dataSource = @[@{@"title": @"个人主页", @"class": @"CGXWeiBoViewController"},
                         @{@"title": @"顶部悬浮", @"class": @"CGXWeiBoFindViewController"},
                         @{@"title": @"主页刷新", @"class": @"CGXMainRefreshViewController"},

@@ -83,7 +83,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)scrollToCriticalPoint;
 
 // 用于子类自行处理滑动
-// 菜单左右滚动
 - (void)listScrollViewDidScroll:(UIScrollView *)scrollView NS_REQUIRES_SUPER;
 - (void)mainScrollViewDidScroll:(UIScrollView *)scrollView NS_REQUIRES_SUPER;
 
