@@ -1,1 +1,1 @@
-../../../../../CGXPageHomeScrollViewOC/Custom/CGXPageHomeTableView.m
+../../../../../CGXPageHomeScrollViewOC/ContainerView/CGXPageHomeTableView.m
