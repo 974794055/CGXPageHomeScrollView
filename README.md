@@ -156,9 +156,7 @@ self.navView.cancelBtnBlock = ^{
 群名称：潮流App-iOS交流</br>
 QQ  群：227219165</br>
 QQ  号：974794055</br>
-
 <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/authorGroup.png" width="300" height="411">
-
 喜欢就star❤️一下吧
 
 ## License

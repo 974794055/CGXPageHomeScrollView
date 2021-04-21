@@ -24,6 +24,7 @@ s.public_header_files = 'CGXPageHomeScrollViewOC/**/*.{h,m}'
     ss.dependency 'CGXPageHomeScrollViewOC/ContainerView'
   end
  
+ 
 end
 
 

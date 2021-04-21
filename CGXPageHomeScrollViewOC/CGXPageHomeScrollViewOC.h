@@ -18,7 +18,6 @@ QQ 号：974794055
 版本号： 0.0.1
 */
 
-
 /*基类*/
 #import "CGXPageHomeBaseView.h"
 /*主页滚动*/
