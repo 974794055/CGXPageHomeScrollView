@@ -1,6 +1,6 @@
 {
   "name": "CGXPageHomeScrollViewOC",
-  "version": "0.0.1",
+  "version": "0.1",
   "summary": "CGXPageHomeScrollViewOC是基于UITableView封装的顶部悬停等主流APP个人中心页的库)",
   "description": "(CGXPageHomeScrollViewOC基于UITableView封装的顶部悬停等主流APP个人中心页的库",
   "homepage": "https://github.com/974794055/CGXPageHomeScrollView",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/974794055/CGXPageHomeScrollView.git",
-    "tag": "0.0.1"
+    "tag": "0.1"
   },
   "requires_arc": true,
   "frameworks": "UIKit",

@@ -1,9 +1,9 @@
 PODS:
-  - CGXPageHomeScrollViewOC (0.0.1):
-    - CGXPageHomeScrollViewOC/ContainerView (= 0.0.1)
-    - CGXPageHomeScrollViewOC/List (= 0.0.1)
-  - CGXPageHomeScrollViewOC/ContainerView (0.0.1)
-  - CGXPageHomeScrollViewOC/List (0.0.1):
+  - CGXPageHomeScrollViewOC (0.1):
+    - CGXPageHomeScrollViewOC/ContainerView (= 0.1)
+    - CGXPageHomeScrollViewOC/List (= 0.1)
+  - CGXPageHomeScrollViewOC/ContainerView (0.1)
+  - CGXPageHomeScrollViewOC/List (0.1):
     - CGXPageHomeScrollViewOC/ContainerView
   - Masonry (1.1.0)
   - MJRefresh (3.5.0)
@@ -29,7 +29,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CGXPageHomeScrollViewOC: c9f72689ff2ff288e612312bca15e4842c447e8a
+  CGXPageHomeScrollViewOC: 23507f7e534dd1d853b70cb92a49391c4e023d9a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
