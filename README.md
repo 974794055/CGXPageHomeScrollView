@@ -7,7 +7,7 @@
 
 ## 基于UICollectionView和UITableView封装悬浮库
 
-- 下载链接：https://github.com/974794055/CGXPageHomeScrollView-OC.git
+- 下载链接：https://github.com/974794055/CGXPageHomeScrollView.git
 -  pod名称 ：CGXPageHomeScrollViewOC
 - 最新版本号： 0.0.1
 
@@ -25,12 +25,12 @@
 
 说明 | Gif |
 ----|------|
-效果🌈普通列表  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller0" width="287" height="600"> |
-效果🌈个人主页  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller1.giit" width="287" height="600"> |
-效果🌈顶部悬浮  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller2.giit" width="287" height="600"> |
-效果🌈主页刷新  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller3.giit" width="287" height="600"> |
-效果🌈列表刷新  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller4.giit" width="287" height="600"> |
-效果🌈Header左右滑动  |  <img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/scoller5.giit" width="287" height="600"> |
+效果🌈普通列表  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller0" width="287" height="600"> |
+效果🌈个人主页  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller1.giit" width="287" height="600"> |
+效果🌈顶部悬浮  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller2.giit" width="287" height="600"> |
+效果🌈主页刷新  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller3.giit" width="287" height="600"> |
+效果🌈列表刷新  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller4.giit" width="287" height="600"> |
+效果🌈Header左右滑动  |  <img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/scoller5.giit" width="287" height="600"> |
 
 ## 要求
 - iOS 8.0+
@@ -157,7 +157,7 @@ self.navView.cancelBtnBlock = ^{
 QQ  群：227219165</br>
 QQ  号：974794055</br>
 
-<img src="https://github.com/974794055/CGXPageHomeScrollView-OC/blob/master/CGXPageHomeScrollViewGif/authorGroup.png" width="300" height="411">
+<img src="https://github.com/974794055/CGXPageHomeScrollView/blob/master/CGXPageHomeScrollViewGif/authorGroup.png" width="300" height="411">
 
 喜欢就star❤️一下吧
 
