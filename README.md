@@ -98,7 +98,6 @@ self.navView.cancelBtnBlock = ^{
 }
 
 - (id<CGXPageHomeScrollContainerViewListDelegate>)pageScrollView:(CGXPageHomeBaseView *)pageScrollView initListAtIndex:(NSInteger)index {
-    
     if (index % 2 ==0) {
         CGXHomeListViewController *listVC = [[CGXHomeListViewController alloc] init];
         [self addChildViewController:listVC];

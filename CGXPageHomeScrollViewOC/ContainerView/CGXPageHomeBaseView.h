@@ -72,6 +72,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)reloadData;
 
+
+/* 子类使用*/
 - (void)reloadUpdateData NS_REQUIRES_SUPER;
 - (void)initializeData NS_REQUIRES_SUPER;
 - (void)initializeViews NS_REQUIRES_SUPER;
@@ -79,6 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;
 - (instancetype)initWithCoder:(NSCoder *)coder NS_UNAVAILABLE;
+
 
 @end
 

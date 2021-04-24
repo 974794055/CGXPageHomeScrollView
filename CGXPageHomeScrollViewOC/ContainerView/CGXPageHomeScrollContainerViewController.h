@@ -11,10 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CGXPageHomeScrollContainerViewController : UIViewController
+
 @property (copy) void(^__nullable viewWillAppearBlock)(void);
 @property (copy) void(^__nullable viewDidAppearBlock)(void);
 @property (copy) void(^__nullable viewWillDisappearBlock)(void);
 @property (copy) void(^__nullable viewDidDisappearBlock)(void);
+
 @end
 
 NS_ASSUME_NONNULL_END
