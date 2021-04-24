@@ -27,7 +27,4 @@ QQ 号：974794055
 #import "CGXPageHomeZoomView.h"
 
 
-
-
-
 #endif /* CGXPageHomeScrollViewOC_h */
