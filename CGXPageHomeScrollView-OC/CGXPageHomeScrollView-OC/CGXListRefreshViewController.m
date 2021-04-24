@@ -34,7 +34,6 @@
         [weakSelf.pageScrollView.containerView scrollSelectedItemAtIndex:integer];
         [weakSelf.pageScrollView.containerView reloadData];
     };
-    
     _pageScrollView = [[CGXPageHomeScrollView alloc] initWithDelegate:self];
     [self.view addSubview:self.pageScrollView];
     [self.pageScrollView mas_makeConstraints:^(MASConstraintMaker *make) {

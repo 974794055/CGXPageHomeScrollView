@@ -12,9 +12,9 @@ Pod::Spec.new do |s|
     s.frameworks = 'UIKit'
     
     #需要托管的源代码路径
-    s.source_files = 'CGXPageHomeScrollViewOC/**/*.{h,m}'
+    s.source_files = 'CGXPageHomeScrollViewOC/CGXPageHomeScrollViewOC.h'
     #开源库头文件
-    s.public_header_files = 'CGXPageHomeScrollViewOC/**/*.{h,m}'
+    s.public_header_files = 'CGXPageHomeScrollViewOC/CGXPageHomeScrollViewOC.h'
     
     s.subspec 'ContainerView' do |ss|
         ss.source_files = 'CGXPageHomeScrollViewOC/ContainerView/**/*.{h,m}'
