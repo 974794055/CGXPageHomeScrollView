@@ -148,7 +148,6 @@ self.navView.cancelBtnBlock = ^{
 - 1. 优化
 
 如果刚开始使用`CGXPageHomeScrollViewOC`，当开发过程中需要支持某种特性时，请务必先搜索使用文档或者源代码。如果没有支持想要的特性，欢迎提Issue讨论，或者自己实现提一个PullRequest。
-
 该仓库保持随时更新，对于主流新的列表效果会第一时间支持。使用过程中，有任何建议或问题，可以通过以下方式联系我：</br>
 邮    箱：974794055@qq.com </br>
 群名称：潮流App-iOS交流</br>

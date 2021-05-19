@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
     s.source_files = 'CGXPageHomeScrollViewOC/CGXPageHomeScrollViewOC.h'
     #开源库头文件
     s.public_header_files = 'CGXPageHomeScrollViewOC/CGXPageHomeScrollViewOC.h'
-    
     s.subspec 'ContainerView' do |ss|
         ss.source_files = 'CGXPageHomeScrollViewOC/ContainerView/**/*.{h,m}'
     end

@@ -71,7 +71,6 @@
     footerView.contentView.backgroundColor = tableView.backgroundColor;
     return footerView;
 }
-#pragma mark - UITableViewDataSource & UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataSource.count;
 }
