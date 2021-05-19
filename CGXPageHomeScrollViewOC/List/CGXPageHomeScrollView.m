@@ -66,10 +66,20 @@
     
     self.containerView = [[CGXPageHomeScrollContainerView alloc] initWithType:self.containerType delegate:self];
     self.containerView.mainTableView = self.mainTableView;
+    self.mainTableView.horizontalScrollViewList = @[self.containerView.scrollView];
 }
 - (void)setDelegate:(id<CGXPageHomeScrollViewDelegate> _Nullable)delegate
 {
     _delegate = delegate;
+}
+- (void)setHorizontalScrollViewList:(NSArray *)horizontalScrollViewList {
+    _horizontalScrollViewList = horizontalScrollViewList;
+    
+    NSMutableArray *list = [NSMutableArray arrayWithArray:horizontalScrollViewList];
+    if (![list containsObject:self.containerView.scrollView]) {
+        [list addObject:self.containerView.scrollView];
+    }
+    self.mainTableView.horizontalScrollViewList = list;
 }
 - (void)layoutSubviews {
     [super layoutSubviews];
@@ -143,9 +153,11 @@
     if (list == nil) {
         list = [self.dataSource pageScrollView:self initListAtIndex:index];
         __weak typeof(self) weakSelf = self;
-        [list listViewDidScrollCallback:^(UIScrollView *scrollView) {
-            [weakSelf listScrollViewDidScroll:scrollView];
-        }];
+        if (list && [list respondsToSelector:@selector(listViewDidScrollCallback:)]) {
+            [list listViewDidScrollCallback:^(UIScrollView *scrollView) {
+                [weakSelf listScrollViewDidScroll:scrollView];
+            }];
+        }
         self.validListDict[@(index)] = list;
     }
     return list;
@@ -370,21 +382,25 @@
 - (void)mainScrollViewOffsetFixed {
     // 获取临界点位置
     CGFloat criticalPoint = [self.mainTableView rectForSection:0].origin.y - self.ceilPointHeight;
-    for (id<CGXPageHomeScrollContainerViewListDelegate> listItem in self.validListDict.allValues) {
-        UIScrollView *listScrollView = [listItem listScrollView];
-        if (listScrollView.contentOffset.y != 0) {
-            self.mainTableView.contentOffset = CGPointMake(0, criticalPoint);
+    for (id<CGXPageHomeScrollContainerViewListDelegate> list in self.validListDict.allValues) {
+        if (list && [list respondsToSelector:@selector(listScrollView)]) {
+            UIScrollView *listScrollView = [list listScrollView];
+            if (listScrollView.contentOffset.y != 0) {
+                self.mainTableView.contentOffset = CGPointMake(0, criticalPoint);
+            }
         }
     }
 }
 // 修正listScrollView的位置
 - (void)listScrollViewOffsetFixed {
     
-    for (id<CGXPageHomeScrollContainerViewListDelegate> listItem in self.validListDict.allValues) {
-        UIScrollView *listScrollView = [listItem listScrollView];
-        listScrollView.contentOffset = CGPointZero;
-        if (self.isControlVerticalIndicator) {
-            listScrollView.showsVerticalScrollIndicator = NO;
+    for (id<CGXPageHomeScrollContainerViewListDelegate> list in self.validListDict.allValues) {
+        if (list && [list respondsToSelector:@selector(listScrollView)]) {
+            UIScrollView *listScrollView = [list listScrollView];
+            listScrollView.contentOffset = CGPointZero;
+            if (self.isControlVerticalIndicator) {
+                listScrollView.showsVerticalScrollIndicator = NO;
+            }
         }
     }
 }

@@ -55,6 +55,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) CGXPageHomeTableView  *mainTableView;;
 // 当前已经加载过的可用的列表字典，key是index值，value是对应列表
 @property (nonatomic, strong, readonly) NSMutableDictionary <NSNumber *, id<CGXPageHomeScrollContainerViewListDelegate>> *validListDict;
+
+/// 外层滚动视图容器 手势冲突
+@property (nonatomic, strong) NSArray *horizontalScrollViewList;
+
 /// 当前滑动的视图容器
 @property (nonatomic,strong,readonly) CGXPageHomeScrollContainerView *containerView;
 /// 当前滑动的子列表

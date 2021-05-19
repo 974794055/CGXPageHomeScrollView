@@ -33,7 +33,6 @@
                         @{@"title": @"主页刷新", @"class": @"CGXMainRefreshViewController"},
                         @{@"title": @"列表刷新", @"class": @"CGXListRefreshViewController"},
                         @{@"title": @"Header左右滑动", @"class": @"CGXHomeHeaderScrollViewController"}];
-
     [self.tableView reloadData];
 }
 - (void)viewWillAppear:(BOOL)animated

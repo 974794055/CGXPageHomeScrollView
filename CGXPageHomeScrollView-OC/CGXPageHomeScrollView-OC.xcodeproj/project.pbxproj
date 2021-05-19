@@ -16,9 +16,6 @@
 		B53BEEF2250CB12300859360 /* CGXHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEEEF250CB12200859360 /* CGXHomeHeaderView.m */; };
 		B53BEEFA250CFA9500859360 /* CGXHomeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEEF9250CFA9500859360 /* CGXHomeListViewController.m */; };
 		B53BEF33250D266D00859360 /* CGXHomeHorizontalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B53BEF32250D266D00859360 /* CGXHomeHorizontalView.m */; };
-		B547FBCD2507D6B20053858C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCB2507D6B20053858C /* LICENSE */; };
-		B547FBCE2507D6B20053858C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCC2507D6B20053858C /* README.md */; };
-		B547FBD02507D6C70053858C /* CGXPageHomeScrollViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */; };
 		B58A4D76262319E7009394F7 /* CustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4D74262319E7009394F7 /* CustomTitleView.m */; };
 		B58A4DCB26231FA6009394F7 /* CGXWeiBoFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4DC826231FA6009394F7 /* CGXWeiBoFindViewController.m */; };
 		B58A4DCC26231FA6009394F7 /* CGXWeiBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58A4DC926231FA6009394F7 /* CGXWeiBoViewController.m */; };
@@ -36,6 +33,9 @@
 		B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA9002262487D0003A4942 /* CGXHeaderView.m */; };
 		B5FA900926248E4C003A4942 /* CGXHomeListTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */; };
 		C12ED184E36E20742F96C3F4 /* libPods-CGXPageHomeScrollView-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E68A84E58412BECBF68B63 /* libPods-CGXPageHomeScrollView-OC.a */; };
+		E0D46EB82655453900C71354 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB52655453900C71354 /* README.md */; };
+		E0D46EB92655453900C71354 /* CGXPageHomeScrollViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */; };
+		E0D46EBA2655453900C71354 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB72655453900C71354 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,9 +58,6 @@
 		B53BEEF9250CFA9500859360 /* CGXHomeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeListViewController.m; sourceTree = "<group>"; };
 		B53BEF31250D266D00859360 /* CGXHomeHorizontalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeHorizontalView.h; sourceTree = "<group>"; };
 		B53BEF32250D266D00859360 /* CGXHomeHorizontalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeHorizontalView.m; sourceTree = "<group>"; };
-		B547FBCB2507D6B20053858C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
-		B547FBCC2507D6B20053858C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
-		B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageHomeScrollViewOC.podspec; path = ../../../CGXPageHomeScrollViewOC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B58A4D74262319E7009394F7 /* CustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleView.m; sourceTree = "<group>"; };
 		B58A4D75262319E7009394F7 /* CustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleView.h; sourceTree = "<group>"; };
 		B58A4DC526231FA6009394F7 /* CGXWeiBoFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXWeiBoFindViewController.h; sourceTree = "<group>"; };
@@ -86,6 +83,9 @@
 		B5FA9002262487D0003A4942 /* CGXHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHeaderView.m; sourceTree = "<group>"; };
 		B5FA900726248E4C003A4942 /* CGXHomeListTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeListTwoViewController.h; sourceTree = "<group>"; };
 		B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeListTwoViewController.m; sourceTree = "<group>"; };
+		E0D46EB52655453900C71354 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageHomeScrollViewOC.podspec; path = ../../../CGXPageHomeScrollViewOC.podspec; sourceTree = "<group>"; };
+		E0D46EB72655453900C71354 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
 		EF7D5F0299D61B5871A9F38A /* Pods-CGXPageHomeScrollView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; path = "Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +122,7 @@
 		046960E4250735F7009A32E9 /* CGXPageHomeScrollView-OC */ = {
 			isa = PBXGroup;
 			children = (
-				B547FBC62507D3340053858C /* Podspec Metadata */,
+				E0D46EB42655451E00C71354 /* Podspec Metadata */,
 				B590EFBE262F293B000A5047 /* CGXPageHomeScrollViewGif */,
 				046960E5250735F7009A32E9 /* AppDelegate.h */,
 				046960E6250735F7009A32E9 /* AppDelegate.m */,
@@ -168,16 +168,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B547FBC62507D3340053858C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				B547FBCF2507D6C70053858C /* CGXPageHomeScrollViewOC.podspec */,
-				B547FBCB2507D6B20053858C /* LICENSE */,
-				B547FBCC2507D6B20053858C /* README.md */,
-			);
-			path = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 		B590EFBE262F293B000A5047 /* CGXPageHomeScrollViewGif */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +200,16 @@
 				B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		E0D46EB42655451E00C71354 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */,
+				E0D46EB72655453900C71354 /* LICENSE */,
+				E0D46EB52655453900C71354 /* README.md */,
+			);
+			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,17 +273,17 @@
 			files = (
 				B590EFCB262F293C000A5047 /* scoller4.gif in Resources */,
 				B590EFC8262F293C000A5047 /* scoller3.gif in Resources */,
-				B547FBCE2507D6B20053858C /* README.md in Resources */,
+				E0D46EBA2655453900C71354 /* LICENSE in Resources */,
 				046960F5250735FC009A32E9 /* LaunchScreen.storyboard in Resources */,
 				046960F2250735FC009A32E9 /* Assets.xcassets in Resources */,
 				B590EFC6262F293C000A5047 /* scoller0.png in Resources */,
 				B590EFCC262F293C000A5047 /* scoller5.gif in Resources */,
 				046960F0250735F7009A32E9 /* Main.storyboard in Resources */,
-				B547FBCD2507D6B20053858C /* LICENSE in Resources */,
 				B590EFCA262F293C000A5047 /* authorGroup.png in Resources */,
 				B590EFC9262F293C000A5047 /* scoller1.gif in Resources */,
+				E0D46EB82655453900C71354 /* README.md in Resources */,
 				B590EFC7262F293C000A5047 /* scoller2.gif in Resources */,
-				B547FBD02507D6C70053858C /* CGXPageHomeScrollViewOC.podspec in Resources */,
+				E0D46EB92655453900C71354 /* CGXPageHomeScrollViewOC.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

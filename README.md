@@ -9,7 +9,7 @@
 
 - 下载链接：https://github.com/974794055/CGXPageHomeScrollView.git
 -  pod名称 ：CGXPageHomeScrollViewOC
-- 最新版本号： 0.1
+- 最新版本号： 0.2
 
 - 功能：    
 - CGXPageHomeScrollViewOC是基于UICollectionView和UITableView封装的等主流APP个人主页列表滚动视图的库
