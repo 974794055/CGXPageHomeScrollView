@@ -52,6 +52,10 @@
     [self.tableView reloadData];
     [self loadData];
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tableView.backgroundColor = APPRandomColor;
+}
 - (void)listDidAppearAtIndex:(NSInteger)index
 {
 //    [self.tableView reloadData];

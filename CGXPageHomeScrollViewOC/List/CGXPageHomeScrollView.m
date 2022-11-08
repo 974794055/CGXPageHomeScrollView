@@ -56,15 +56,17 @@
     self.mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.mainTableView.showsVerticalScrollIndicator = NO;
     self.mainTableView.showsHorizontalScrollIndicator = NO;
+    self.mainTableView.backgroundColor = [UIColor clearColor];
     self.mainTableView.tableHeaderView = [[UIView alloc] init];;
     self.mainTableView.tableFooterView = [[UIView alloc] init];;
-    [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
+    [self.mainTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
     if (@available(iOS 11.0, *)) {
         self.mainTableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
     [self addSubview:self.mainTableView];
     
     self.containerView = [[CGXPageHomeScrollContainerView alloc] initWithType:self.containerType delegate:self];
+    self.containerView.backgroundColor = [UIColor clearColor];
     self.containerView.mainTableView = self.mainTableView;
     self.mainTableView.horizontalScrollViewList = @[self.containerView.scrollView];
 }
@@ -129,10 +131,10 @@
     return CGRectGetHeight(self.mainTableView.frame) - self.ceilPointHeight;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
     [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.contentView.backgroundColor = [UIColor clearColor];
     UIView *segmentedView = [self.dataSource titleViewInPageScrollView:self];
     segmentedView.frame = CGRectMake(0, 0, CGRectGetWidth(self.mainTableView.frame), CGRectGetHeight(segmentedView.frame));
     [cell.contentView addSubview:segmentedView];

@@ -34,7 +34,7 @@
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
         layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
         UICollectionView *mCollectionView = [[UICollectionView alloc] initWithFrame:frame collectionViewLayout:layout];
-        mCollectionView.backgroundColor = [UIColor whiteColor];
+        mCollectionView.backgroundColor = [UIColor clearColor];
         mCollectionView.showsHorizontalScrollIndicator = YES;
         mCollectionView.showsVerticalScrollIndicator = YES;
         mCollectionView.dataSource = self;
@@ -97,11 +97,9 @@
     if (self.currentInter == indexPath.row) {
         ppLabel.textColor = self.textSelectColor;
         ppLabel.font = self.textSelectFont;
-        ppLabel.backgroundColor = self.textSelectBgColor;
     } else{
         ppLabel.textColor = self.textNormalColor;
         ppLabel.font = self.textNormalFont;
-        ppLabel.backgroundColor = self.textNormalBgColor;
     }
     ppLabel.frame = cell.contentView.frame;
     ppLabel.text = self.titleArray[indexPath.row];

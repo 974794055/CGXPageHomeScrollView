@@ -33,9 +33,11 @@
 		B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA9002262487D0003A4942 /* CGXHeaderView.m */; };
 		B5FA900926248E4C003A4942 /* CGXHomeListTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */; };
 		C12ED184E36E20742F96C3F4 /* libPods-CGXPageHomeScrollView-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E68A84E58412BECBF68B63 /* libPods-CGXPageHomeScrollView-OC.a */; };
-		E0D46EB82655453900C71354 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB52655453900C71354 /* README.md */; };
-		E0D46EB92655453900C71354 /* CGXPageHomeScrollViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */; };
-		E0D46EBA2655453900C71354 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0D46EB72655453900C71354 /* LICENSE */; };
+		E0C080CC26D0C3630052F1FB /* CGXSmoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C080C826D0C3630052F1FB /* CGXSmoothViewController.m */; };
+		E0C080CD26D0C3630052F1FB /* CGXSmoothListView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C080C926D0C3630052F1FB /* CGXSmoothListView.m */; };
+		E0F73FC226D250FF0099D203 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E0F73FBF26D250FF0099D203 /* README.md */; };
+		E0F73FC326D250FF0099D203 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E0F73FC026D250FF0099D203 /* LICENSE */; };
+		E0F73FC426D250FF0099D203 /* CGXPageHomeScrollViewOC.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E0F73FC126D250FF0099D203 /* CGXPageHomeScrollViewOC.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,9 +85,13 @@
 		B5FA9002262487D0003A4942 /* CGXHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXHeaderView.m; sourceTree = "<group>"; };
 		B5FA900726248E4C003A4942 /* CGXHomeListTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXHomeListTwoViewController.h; sourceTree = "<group>"; };
 		B5FA900826248E4C003A4942 /* CGXHomeListTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXHomeListTwoViewController.m; sourceTree = "<group>"; };
-		E0D46EB52655453900C71354 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
-		E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageHomeScrollViewOC.podspec; path = ../../../CGXPageHomeScrollViewOC.podspec; sourceTree = "<group>"; };
-		E0D46EB72655453900C71354 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		E0C080C826D0C3630052F1FB /* CGXSmoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXSmoothViewController.m; sourceTree = "<group>"; };
+		E0C080C926D0C3630052F1FB /* CGXSmoothListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXSmoothListView.m; sourceTree = "<group>"; };
+		E0C080CA26D0C3630052F1FB /* CGXSmoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXSmoothViewController.h; sourceTree = "<group>"; };
+		E0C080CB26D0C3630052F1FB /* CGXSmoothListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXSmoothListView.h; sourceTree = "<group>"; };
+		E0F73FBF26D250FF0099D203 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		E0F73FC026D250FF0099D203 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		E0F73FC126D250FF0099D203 /* CGXPageHomeScrollViewOC.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXPageHomeScrollViewOC.podspec; path = ../../../CGXPageHomeScrollViewOC.podspec; sourceTree = "<group>"; };
 		EF7D5F0299D61B5871A9F38A /* Pods-CGXPageHomeScrollView-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; path = "Target Support Files/Pods-CGXPageHomeScrollView-OC/Pods-CGXPageHomeScrollView-OC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +128,7 @@
 		046960E4250735F7009A32E9 /* CGXPageHomeScrollView-OC */ = {
 			isa = PBXGroup;
 			children = (
-				E0D46EB42655451E00C71354 /* Podspec Metadata */,
+				E0F73FBE26D250F40099D203 /* Podspec Metadata */,
 				B590EFBE262F293B000A5047 /* CGXPageHomeScrollViewGif */,
 				046960E5250735F7009A32E9 /* AppDelegate.h */,
 				046960E6250735F7009A32E9 /* AppDelegate.m */,
@@ -138,6 +144,10 @@
 				B58A4E6626235550009394F7 /* CGXMainRefreshViewController.m */,
 				B58A4E2F26233B64009394F7 /* CGXHomeHeaderScrollViewController.h */,
 				B58A4E3026233B64009394F7 /* CGXHomeHeaderScrollViewController.m */,
+				E0C080CB26D0C3630052F1FB /* CGXSmoothListView.h */,
+				E0C080C926D0C3630052F1FB /* CGXSmoothListView.m */,
+				E0C080CA26D0C3630052F1FB /* CGXSmoothViewController.h */,
+				E0C080C826D0C3630052F1FB /* CGXSmoothViewController.m */,
 				B5FA900626248E26003A4942 /* Custom */,
 				B58A4D75262319E7009394F7 /* CustomTitleView.h */,
 				B58A4D74262319E7009394F7 /* CustomTitleView.m */,
@@ -202,12 +212,12 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		E0D46EB42655451E00C71354 /* Podspec Metadata */ = {
+		E0F73FBE26D250F40099D203 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E0D46EB62655453900C71354 /* CGXPageHomeScrollViewOC.podspec */,
-				E0D46EB72655453900C71354 /* LICENSE */,
-				E0D46EB52655453900C71354 /* README.md */,
+				E0F73FC126D250FF0099D203 /* CGXPageHomeScrollViewOC.podspec */,
+				E0F73FC026D250FF0099D203 /* LICENSE */,
+				E0F73FBF26D250FF0099D203 /* README.md */,
 			);
 			path = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -273,17 +283,17 @@
 			files = (
 				B590EFCB262F293C000A5047 /* scoller4.gif in Resources */,
 				B590EFC8262F293C000A5047 /* scoller3.gif in Resources */,
-				E0D46EBA2655453900C71354 /* LICENSE in Resources */,
 				046960F5250735FC009A32E9 /* LaunchScreen.storyboard in Resources */,
 				046960F2250735FC009A32E9 /* Assets.xcassets in Resources */,
+				E0F73FC426D250FF0099D203 /* CGXPageHomeScrollViewOC.podspec in Resources */,
 				B590EFC6262F293C000A5047 /* scoller0.png in Resources */,
 				B590EFCC262F293C000A5047 /* scoller5.gif in Resources */,
+				E0F73FC326D250FF0099D203 /* LICENSE in Resources */,
 				046960F0250735F7009A32E9 /* Main.storyboard in Resources */,
 				B590EFCA262F293C000A5047 /* authorGroup.png in Resources */,
 				B590EFC9262F293C000A5047 /* scoller1.gif in Resources */,
-				E0D46EB82655453900C71354 /* README.md in Resources */,
+				E0F73FC226D250FF0099D203 /* README.md in Resources */,
 				B590EFC7262F293C000A5047 /* scoller2.gif in Resources */,
-				E0D46EB92655453900C71354 /* CGXPageHomeScrollViewOC.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +352,7 @@
 				046960ED250735F7009A32E9 /* ViewController.m in Sources */,
 				B58A4E7026235551009394F7 /* CGXListRefreshViewController.m in Sources */,
 				B58A4DCC26231FA6009394F7 /* CGXWeiBoViewController.m in Sources */,
+				E0C080CC26D0C3630052F1FB /* CGXSmoothViewController.m in Sources */,
 				B58A4D76262319E7009394F7 /* CustomTitleView.m in Sources */,
 				046960E7250735F7009A32E9 /* AppDelegate.m in Sources */,
 				B53BEEFA250CFA9500859360 /* CGXHomeListViewController.m in Sources */,
@@ -349,6 +360,7 @@
 				B53BEEF2250CB12300859360 /* CGXHomeHeaderView.m in Sources */,
 				B58A4DCB26231FA6009394F7 /* CGXWeiBoFindViewController.m in Sources */,
 				B5FA9003262487D0003A4942 /* CGXHeaderView.m in Sources */,
+				E0C080CD26D0C3630052F1FB /* CGXSmoothListView.m in Sources */,
 				B58A4E6E26235551009394F7 /* CGXMainRefreshViewController.m in Sources */,
 				046960F8250735FC009A32E9 /* main.m in Sources */,
 			);

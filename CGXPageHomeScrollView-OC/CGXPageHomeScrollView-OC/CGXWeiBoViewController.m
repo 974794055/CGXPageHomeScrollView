@@ -26,6 +26,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:animated];
+    
+    self.pageScrollView.backgroundColor = APPRandomColor;
+    self.titleView.backgroundColor = APPRandomColor;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -71,7 +74,7 @@
 - (UIView *)titleViewInPageScrollView:(CGXPageHomeBaseView *)pageScrollView {
     __weak typeof(self) weakSelf = self;
     CustomTitleView *categoryView = [[CustomTitleView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, kSegmentHeight)];
-    categoryView.backgroundColor = [UIColor whiteColor];
+    categoryView.backgroundColor = APPRandomColor;
     [categoryView updateDataTitieArray:[NSMutableArray arrayWithArray:self.titles]];
     categoryView.selectBtnBlock = ^(NSInteger integer) {
         [weakSelf.pageScrollView.containerView scrollSelectedItemAtIndex:integer];

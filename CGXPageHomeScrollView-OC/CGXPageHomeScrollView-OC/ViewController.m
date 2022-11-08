@@ -32,7 +32,9 @@
                         @{@"title": @"顶部悬浮", @"class": @"CGXWeiBoFindViewController"},
                         @{@"title": @"主页刷新", @"class": @"CGXMainRefreshViewController"},
                         @{@"title": @"列表刷新", @"class": @"CGXListRefreshViewController"},
-                        @{@"title": @"Header左右滑动", @"class": @"CGXHomeHeaderScrollViewController"}];
+                        @{@"title": @"Header左右滑动", @"class": @"CGXHomeHeaderScrollViewController"},
+                        @{@"title": @"豆瓣电影主页", @"class": @"CGXSmoothViewController"}
+    ];
     [self.tableView reloadData];
 }
 - (void)viewWillAppear:(BOOL)animated

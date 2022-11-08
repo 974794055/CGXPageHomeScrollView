@@ -42,9 +42,8 @@
 }
 
 - (void)initializeViews {
-    self.backgroundColor = [UIColor whiteColor];
     _containerVC = [[CGXPageHomeScrollContainerViewController alloc] init];
-    self.containerVC.view.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0];
+    self.containerVC.view.backgroundColor = [UIColor clearColor];
     [self addSubview:self.containerVC.view];
     __weak typeof(self) weakSelf = self;
     self.containerVC.viewWillAppearBlock = ^{
@@ -78,6 +77,7 @@
                 self.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
             }
         }
+        self.scrollView.backgroundColor = [UIColor clearColor];
         [self.containerVC.view addSubview:self.scrollView];
     }else {
         UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
@@ -98,7 +98,7 @@
         self.collectionView.bounces = NO;
         self.collectionView.dataSource = self;
         self.collectionView.delegate = self;
-        [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"cell"];
+        [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([UICollectionViewCell class])];
         if (@available(iOS 10.0, *)) {
             self.collectionView.prefetchingEnabled = NO;
         }
@@ -107,6 +107,7 @@
                 self.collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
             }
         }
+        self.collectionView.backgroundColor = [UIColor clearColor];
         [self.containerVC.view addSubview:self.collectionView];
         //让外部统一访问scrollView
         _scrollView = _collectionView;
@@ -174,8 +175,7 @@
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cell" forIndexPath:indexPath];
-    cell.contentView.backgroundColor = self.backgroundColor;
+    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([UICollectionViewCell class]) forIndexPath:indexPath];
     for (UIView *subview in cell.contentView.subviews) {
         [subview removeFromSuperview];
     }
